@@ -90,10 +90,11 @@ a{
 	display: flex;
 	color: #d3d3d3;
 	width: 50vh;
+	justify-content: center;
 }
 
 .li__botones{
-	margin: 10px 10px 10px 0px;
+	margin: 10px 5px 10px 5px;
 }
 
 
