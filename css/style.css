@@ -89,7 +89,6 @@ a{
 	list-style: none;
 	display: flex;
 	color: #d3d3d3;
-	width: 50vh;
 	justify-content: center;
 }
 
@@ -860,10 +859,6 @@ a{
 	display: flex;
 }
 
-.ul__botones{
-	margin: 14px auto 0px;
-    display: -webkit-inline-box;	
-}
 
 .ul__botones__nav{
 	margin: auto 5px auto 0px;
@@ -871,9 +866,17 @@ a{
     flex-wrap: wrap;	
 }
 
-.li__botones{
+.ul__botones{
 	list-style: none;
+	display: flex;
+	color: #d3d3d3;
+	justify-content: center;
 }
+
+.li__botones{
+	margin: 10px 5px 10px 5px;
+}
+
 
 .li__botones__nav{
 	list-style: none;
