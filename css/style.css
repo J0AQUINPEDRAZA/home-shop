@@ -420,7 +420,8 @@ a{
 }
 
 .formulario{
-	width: 40vw;
+	width: 73vw;
+    max-width: 350px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
