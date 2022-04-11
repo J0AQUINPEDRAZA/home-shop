@@ -391,7 +391,13 @@ a{
     transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
 }
 
-
+.celular3:hover{
+	box-shadow: 0px 20px 35px 0px #cfcfcf;
+	z-index: 1;
+	transition: -webkit-box-shadow .2s ease-in-out;
+    transition: box-shadow .2s ease-in-out;
+    transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
+}
 
 
 	/* Contacto */
