@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="shortcut icon" href="../img/iconos/favicon-32x32.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
@@ -11,6 +13,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/acae1a4fd6.js" crossorigin="anonymous"></script>
+	<!-- JavaScript for boostrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<title>home shop</title>
 </head>
 <body class="body">
@@ -70,57 +74,54 @@
 		</nav>
 	</header>
 	<header class="header__responsive">
-		<nav class="nav">
-			<div class="logo">
-				<a href="../index.html" class="botonLogo"><img class="logo" src="../img/iconos/logo__responsive.png" alt="home shop"></a>
+		<nav class="prueba">
+			<div class="navbar navbar-expand-lg navbar-light color__nav">
+ 				<div class="container-fluid">
+   				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+     			<span class="navbar-toggler-icon"></span>
+    			</button>
+    				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+      				<ul class="navbar-nav">
+        				<li class="nav-item">
+         					<a href="../index.html" class="boton__inicio" >Inicio</a>
+        				</li>
+        				<li class="nav-item">
+         					<a href="./vender.html" class="boton__inicio">Vender</a>
+        				</li> 
+        				<li class="nav-item">
+          					<a href="./contacto.html" class="boton__inicio" >Contacto</a>
+        				</li>
+        				<li class="nav-item">
+          					<a class="boton__inicio" href="./carrito.html">Carrito</a>
+        				</li>
+        				<li class="nav-item">
+          					<a class="boton__inicio" href="./perfil.html">Mi cuenta</a>
+        				</li>
+        				<li class="nav-item dropdown">
+          					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+          					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            					<li>
+            						<a class="dropdown-item" href="#">Action</a>
+           						</li>
+            					<li>
+            						<a class="dropdown-item" href="#">Another action</a>
+            					</li>
+            					<li>
+            						<a class="dropdown-item" href="#">Something else here</a>
+            				</li>
+         	 				</ul>
+        				</li>
+      				</ul>
+    			</div>
+  			</div>
 			</div>
-			<div class="nav__completo">
-				<div class="inputs__nav">
-					<form class="input__nav__bar">
-						<input type="text" class="input__nav__bar" aria-label="Ingresá lo que quieras encontrar" placeholder="Buscar productos, marcas y más…">
-						<input type="image" src="../img/iconos/search-icon2-32x32.png" class="input__icon__search__submit" title="Buscar" name="buscar" alt="Boton enviar">
-					</form>	
-				</div>
-				<div class="botones">
-					<ul class="ul__botones">
-						<li class="li__botones">
-							<a href="../index.html" class="boton__inicio">Inicio</a>
-						</li>
-						<li class="li__botones">
-							<a href="#" class="boton__categorias">Categorías</a>
-							<ul class="ul__categorias">
-								<li class="submenu__li__tecnologia">
-									Tecnologia
-								</li>
-								<li class="submenu__li__hogar">
-									Hogar
-								</li>
-								<li class="submenu__li__bicicletas">
-									Bicicletas
-								</li>
-								<li class="submenu__li__moda">
-									Moda
-								</li>
-							</ul>
-						</li>
-						<li class="li__botones">
-							<a href="./vender.html" class="boton__vender">Vender</a>
-						</li>
-						<li class="li__botones">
-							<a href="./contacto.html" class="boton__contacto">Contacto</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="botones__nav">
-				<ul class="ul__botones__nav">
-					<li class="li__botones__nav">
-						<a href="./perfil.html"><i class="fa-regular fa-user fa-2xl" title="Mi cuenta"></i></a>
-					</li>
-					<li class="li__botones__nav">
-						<a href="./carrito.html"><i class="fa-solid fa-cart-shopping fa-2xl" title="Carrito"></i></a>	
-					</li>
-				</ul>
+			<div class="navbar navbar-light  color__nav">
+  		<div class="container-fluid">
+    		<form class="d-flex">
+      		<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+     			<button class="btn color__btn" type="submit">Buscar</button>
+    		</form>
+ 			</div>
 			</div>
 		</nav>
 	</header>
