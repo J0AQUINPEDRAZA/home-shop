@@ -1039,16 +1039,19 @@ a{
 
 .inputs__nav{
 	padding: 1px 15px 5px 3px;
-    height: 30px;
+    height: 35px;
     width: 70vw;
     max-width: 500px;
     margin: 0px;
     background-color: #bfbfbf;
     text-align: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
     border: 1px solid #00000000;
     border-radius: 3px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
 }
 
 .inputs__nav:hover{
