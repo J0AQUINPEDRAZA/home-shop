@@ -30,10 +30,10 @@ a{
 	max-width: 1200px;
 }
 
-.logo{
+.logo__responsive{
 	min-width: auto;
-	max-width: 50px;
-	margin: 10px 5px 0px 5px;
+	max-width: 80px;
+	
 }
 
 .color__nav{
