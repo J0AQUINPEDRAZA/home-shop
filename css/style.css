@@ -598,8 +598,9 @@ a{
 }
 
 .formulario__perfil__login{
-	width: 50vw;
-	padding: 5vh;
+	min-width: 250px;
+    width: 49vw;
+    padding: 0.4vh;
     margin: 20px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -622,8 +623,9 @@ a{
 
 
 .formulario__perfil__registrarse{
-	width: 50vw;
-	padding: 5vh;
+	min-width: 250px;
+    width: 49vw;
+    padding: 0.4vh;
     margin: 20px 0px;
     display: flex;
     flex-wrap: wrap;
