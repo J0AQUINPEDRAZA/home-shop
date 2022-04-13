@@ -4,6 +4,11 @@
 	box-sizing: 0px;
 }
 
+ul li{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: 0px;
+}
 
 a{
 	text-decoration: none;
