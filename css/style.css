@@ -832,7 +832,7 @@ a{
     box-shadow: 0px 0px 5px 1px #cfcfcf;
 }
 
-
+/*ESCRITORIO*/
 
 }
 @media only screen and (min-width:750px){
@@ -881,7 +881,7 @@ a{
 
 .logo{
 	margin: 10px 5px 0px 10px;
-    height: 10vh;
+    height: 50px;
     align-items: flex-start;
 
 }
@@ -894,7 +894,8 @@ a{
 .ul__botones__nav{
 	margin: auto 5px auto 0px;
     display: flex;
-    flex-wrap: wrap;	
+    flex-wrap: wrap;
+    flex-direction: column;	
 }
 
 .ul__botones{
@@ -902,6 +903,8 @@ a{
 	display: flex;
 	color: #d3d3d3;
 	justify-content: center;
+	
+
 }
 
 .li__botones{
