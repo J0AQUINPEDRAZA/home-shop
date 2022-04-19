@@ -63,6 +63,12 @@ a{
 	    align-content: flex-start;
 }
 
+.dropdown-menu{
+	border: none;
+	background-color: #235b7d;
+}
+
+
 .prueba{
 	    display: flex;
     justify-content: space-between;
