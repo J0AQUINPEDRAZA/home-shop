@@ -1,0 +1,11 @@
+@import "_variables";
+
+.footer{
+	margin: 10px 0px 0px 0px;
+	background-color: $azulHeader ;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,167 @@
+@import "_variables";
+
+@media only screen and (min-width:750px){
+    .header__responsive{
+	    display: none; 
+    }
+	.header__desktop{
+		background-color: $azulHeader;
+		width: 100%;
+		.nav{
+			width: 100%;
+			max-width: 1200px;
+			height: 100px;
+			margin: 0px auto;
+			display: flex;
+			background-color: $azulHeader;
+			flex-direction: row;
+			justify-content: space-between;
+			.logo{
+				margin: 10px 5px 0px 10px;
+				height: 50px;
+				align-items: flex-start;
+			}
+			.nav__completo{
+				text-align: center;
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+				.inputs__nav{
+					padding: 1px 15px 5px 3px;
+					height: 35px;
+					width: 70vw;
+					max-width: 500px;
+					margin: 0px;
+					background-color: $grisSearch;
+					text-align: center;
+					border: 1px solid $negro;
+					border-radius: 3px;
+					display: flex;
+					flex-wrap: nowrap;
+					flex-direction: row;
+					align-items: center;
+					margin: 5px;
+					.input__nav__bar{
+						height: 30px;
+						width: 100%;
+						margin: 0px -2px;
+						padding: 0px 0px 0px 2px;
+						display: flex;
+						flex-direction: row;
+						flex-wrap: nowrap;
+						border: 1px solid $negro;
+						border-radius: 3px;
+						outline: none;
+						.input__icon__search__submit{
+							margin: 0px 0px 0px 10px;
+							height: 30px;
+							width: 30px;
+							display: inline;
+						}
+					}
+				}
+				.botones{
+					display: flex;
+					.ul__botones{
+						list-style: none;
+						display: flex;
+						color: $grisFont;
+						justify-content: center;
+						.li__botones{
+							margin: 10px 5px 10px 5px;
+							.boton__inicio{
+								margin: 0px;
+								padding: 7px 15px;
+								display: inline;
+								color: $grisFont;
+								text-decoration: none;
+								font-size: 20px;
+								&:hover{
+									background-color: $azulHeaderHover;
+									color: $blanco;
+								}
+							}
+							.boton__vender{
+								margin: 0px;
+								padding: 7px 15px;
+								display: inline;
+								color: $grisFont;
+								text-decoration: none;
+								font-size: 20px;
+								&:hover{
+									background-color: $azulHeaderHover;
+									color: $blanco;
+								}
+							}	
+							.boton__categorias{
+								margin: 0px;
+								padding: 7px 15px;
+								display: inline;
+								color: $grisFont;
+								text-decoration: none;
+								font-size: 20px;
+								list-style: none;
+								&:hover{
+									background-color: $azulHeaderHover;
+									color: $blanco;
+								}
+							}		
+							.dropdown-menu{
+								border: none;
+								background-color: $azulHeader;
+								.dropdown-item{
+									color:$grisFont;
+									&:hover{
+										background-color: $azulHeaderHover;
+										border-radius: 4px;
+										color: $blanco;
+									}
+								}
+							}	
+							.boton__contacto{
+								margin: 0px;
+								padding: 7px 15px;
+								display: inline;
+								color: $grisFont;
+								text-decoration: none;
+								font-size: 20px;
+								&:hover{
+									background-color: $azulHeaderHover;
+									color: $blanco;
+								}
+							}
+						}
+					}
+				}
+			}
+			.botones__nav{
+				display: flex;
+				flex-wrap: wrap;
+				.ul__botones__nav{
+					margin: auto 5px auto 0px;
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: column;
+					.li__botones__nav{
+						list-style: none;
+						display: flex;
+						color: $grisFont;
+						justify-content: center;
+						margin: 10px;
+						.fa-regular{
+							color: $grisFont;
+							margin: 10px;
+						}
+						.fa-solid{
+							color: $grisFont;
+							margin: 10px;
+						}
+					}
+				}
+			}			
+		}
+	}
+}

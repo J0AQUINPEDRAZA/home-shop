@@ -1,0 +1,93 @@
+@import "_variables";
+
+@media only screen and (max-width:750px){
+    .header__desktop{
+        display: none;
+    }
+    .header__responsive{
+    width: 100%;
+    background-color: $azulHeader;
+    }
+    .prueba{
+        display: flex;
+        justify-content: space-between;
+        background-color: $azulHeader;
+        .navbar{
+            align-content: flex-start;
+            .boton__inicio{
+                margin: 0px;
+                padding: 7px 15px;
+                display: inline;
+                color: $grisFont;
+                text-decoration: none;
+                font-size: 20px;
+                &:hover{
+                    background-color: $azulHeaderHover;
+                    color: $blanco;
+                }
+            }
+            .boton__vender{
+                margin: 0px;
+                padding: 7px 15px;
+                display: inline;
+                color: $grisFont;
+                text-decoration: none;
+                font-size: 20px;
+                &:hover{
+                    background-color: $azulHeaderHover;
+                    color: $blanco;
+                }
+            }	
+            .boton__categorias{
+                margin: 0px;
+                padding: 7px 15px;
+                display: inline;
+                color: $grisFont;
+                text-decoration: none;
+                font-size: 20px;
+                list-style: none;
+                &:hover{
+                    background-color: $azulHeaderHover;
+                    color: $blanco;
+                }
+            }		
+            .dropdown-menu{
+                border: none;
+                background-color: $azulHeader;
+                .dropdown-item{
+                    color:$grisFont;
+                    &:hover{
+                        background-color: $azulHeaderHover;
+                        border-radius: 4px;
+                        color: $blanco;
+                    }
+                }
+            }	
+            .boton__contacto{
+                margin: 0px;
+                padding: 7px 15px;
+                display: inline;
+                color: $grisFont;
+                text-decoration: none;
+                font-size: 20px;
+                &:hover{
+                    background-color: $azulHeaderHover;
+                    color: $blanco;
+                }
+            }
+            .color__btn{
+                color: $grisFont;
+                background-color: $azulHeader ;
+                border: 1px solid $grisFont;
+                border-radius: 3px;
+            }
+        }
+        .color__nav{
+            background-color: $azulHeader;   
+        }
+    }
+   
+}
+
+
+    
