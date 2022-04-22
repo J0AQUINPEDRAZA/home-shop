@@ -1,4 +1,4 @@
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .header__desktop {
     display: none; }
   .header__responsive {
@@ -68,7 +68,7 @@
     .prueba .color__nav {
       background-color: #235b7d; } }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 768px) {
   .header__responsive {
     display: none; }
   .header__desktop {
