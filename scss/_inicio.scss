@@ -32,25 +32,7 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 .computadora1{
-                    margin: 10px;
-                    background-color: $blanco;
-                    padding: 10px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    border: 1px solid $blanco;
-                    border-radius: 7px;
-                    box-shadow: 0px 0px 5px 1px $boxShadow;
-                    .img__computadora1{
-                        width: auto;
-	                    max-width: 224px;
-                        .img__txt{
-                            display: flex;
-                            font-size: 20px;
-                        }
-                    }
+                    @extend .card;
                 }
                 .computadora1:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -59,25 +41,11 @@
                     transition: box-shadow .2s ease-in-out;
                     transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
                 }
+                .img__txt{
+                    @include textos;
+                }
                 .computadora2{
-                    margin: 10px;
-                    background-color: $blanco;
-                    padding: 10px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    border: 1px solid $blanco;
-                    border-radius: 7px;
-                    box-shadow: 0px 0px 5px 1px $boxShadow;
-                    .img__computadora2{
-                        width: 224px;
-                        .img__txt{
-                            display: flex;
-                            font-size: 20px;
-                        }
-                    }
+                    @extend .card;
                 }
                 .computadora2:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -86,25 +54,11 @@
                     transition: box-shadow .2s ease-in-out;
                     transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
                 }
+                .img__txt{
+                    @include textos;
+                }
                 .celular1{
-                    margin: 10px;
-                    background-color: $blanco;
-                    padding: 10px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    border: 1px solid $blanco;
-                    border-radius: 7px;
-                    box-shadow: 0px 0px 5px 1px $boxShadow;
-                    .img__celular1{
-                        width: 224px;
-                        .img__txt{
-                            display: flex;
-                            font-size: 20px;
-                        }
-                    }
+                    @extend .card;
                 }
                 .celular1:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -113,25 +67,11 @@
                     transition: box-shadow .2s ease-in-out;
                     transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
                 }
+                .img__txt{
+                    @include textos;
+                }
                 .computadora3{
-                    margin: 10px;
-                    background-color: $blanco;
-                    padding: 10px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    border: 1px solid $blanco;
-                    border-radius: 7px;
-                    box-shadow: 0px 0px 5px 1px $boxShadow;
-                    .img__computadora3{
-                        width: 224px;
-                        .img__txt{
-                            display: flex;
-                            font-size: 20px;
-                        }
-                    }
+                    @extend .card;
                 }
                 .computadora3:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -140,25 +80,11 @@
                     transition: box-shadow .2s ease-in-out;
                     transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
                 }
+                .img__txt{
+                    @include textos;
+                }
                 .celular2{
-                    margin: 10px;
-                    background-color: $blanco;
-                    padding: 10px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    border: 1px solid $blanco;
-                    border-radius: 7px;
-                    box-shadow: 0px 0px 5px 1px $boxShadow;
-                    .img__celular2{
-                        width: 224px;
-                        .img__txt{
-                            display: flex;
-                            font-size: 20px;
-                        }
-                    }
+                    @extend .card;
                 }
                 .celular2:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -167,25 +93,11 @@
                     transition: box-shadow .2s ease-in-out;
                     transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
                 }
+                .img__txt{
+                    @include textos;
+                }
                 .celular3{
-                    margin: 10px;
-                    background-color: $blanco;
-                    padding: 10px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    border: 1px solid $blanco;
-                    border-radius: 7px;
-                    box-shadow: 0px 0px 5px 1px $boxShadow;
-                    .img__celular3{
-                        width: 224px;
-                        .img__txt{
-                            display: flex;
-                            font-size: 20px;
-                        }
-                    }
+                    @extend .card;
                 }
                 .celular3:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;

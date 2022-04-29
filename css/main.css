@@ -1,3 +1,21 @@
+.card, .section .article .div__productos .productos .computadora1, .section .article .div__productos .productos .computadora2, .section .article .div__productos .productos .celular1, .section .article .div__productos .productos .computadora3, .section .article .div__productos .productos .celular2, .section .article .div__productos .productos .celular3 {
+  margin: 10px;
+  background-color: #ffff;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #ffff;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 1px #cfcfcf; }
+  .card .img__computadora1, .section .article .div__productos .productos .computadora1 .img__computadora1, .section .article .div__productos .productos .computadora2 .img__computadora1, .section .article .div__productos .productos .celular1 .img__computadora1, .section .article .div__productos .productos .computadora3 .img__computadora1, .section .article .div__productos .productos .celular2 .img__computadora1, .section .article .div__productos .productos .celular3 .img__computadora1 {
+    width: auto;
+    max-width: 224px; }
+    .card .img__computadora1 .img__txt, .section .article .div__productos .productos .computadora1 .img__computadora1 .img__txt, .section .article .div__productos .productos .computadora2 .img__computadora1 .img__txt, .section .article .div__productos .productos .celular1 .img__computadora1 .img__txt, .section .article .div__productos .productos .computadora3 .img__computadora1 .img__txt, .section .article .div__productos .productos .celular2 .img__computadora1 .img__txt, .section .article .div__productos .productos .celular3 .img__computadora1 .img__txt {
+      display: flex; }
+
 @media only screen and (max-width: 768px) {
   .header__desktop {
     display: none; }
@@ -36,8 +54,7 @@
         display: inline;
         color: #d3d3d3;
         text-decoration: none;
-        font-size: 20px;
-        list-style: none; }
+        font-size: 20px; }
         .prueba .navbar .boton__categorias:hover {
           background-color: #2a6d95;
           color: #ffff; }
@@ -242,139 +259,66 @@
         align-items: stretch;
         flex-wrap: wrap;
         justify-content: center; }
-        .section .article .div__productos .productos .computadora1 {
-          margin: 10px;
-          background-color: #ffff;
-          padding: 10px;
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          border: 1px solid #ffff;
-          border-radius: 7px;
-          box-shadow: 0px 0px 5px 1px #cfcfcf; }
-          .section .article .div__productos .productos .computadora1 .img__computadora1 {
-            width: auto;
-            max-width: 224px; }
-            .section .article .div__productos .productos .computadora1 .img__computadora1 .img__txt {
-              display: flex;
-              font-size: 20px; }
         .section .article .div__productos .productos .computadora1:hover {
           box-shadow: 0px 20px 35px 0px #cfcfcf;
           z-index: 1;
           transition: -webkit-box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out; }
-        .section .article .div__productos .productos .computadora2 {
-          margin: 10px;
-          background-color: #ffff;
-          padding: 10px;
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          border: 1px solid #ffff;
-          border-radius: 7px;
-          box-shadow: 0px 0px 5px 1px #cfcfcf; }
-          .section .article .div__productos .productos .computadora2 .img__computadora2 {
-            width: 224px; }
-            .section .article .div__productos .productos .computadora2 .img__computadora2 .img__txt {
-              display: flex;
-              font-size: 20px; }
+        .section .article .div__productos .productos .img__txt h2 {
+          font-size: 1rem;
+          color: black; }
+        .section .article .div__productos .productos .img__txt p {
+          font-size: 20px;
+          color: black; }
         .section .article .div__productos .productos .computadora2:hover {
           box-shadow: 0px 20px 35px 0px #cfcfcf;
           z-index: 1;
           transition: -webkit-box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out; }
-        .section .article .div__productos .productos .celular1 {
-          margin: 10px;
-          background-color: #ffff;
-          padding: 10px;
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          border: 1px solid #ffff;
-          border-radius: 7px;
-          box-shadow: 0px 0px 5px 1px #cfcfcf; }
-          .section .article .div__productos .productos .celular1 .img__celular1 {
-            width: 224px; }
-            .section .article .div__productos .productos .celular1 .img__celular1 .img__txt {
-              display: flex;
-              font-size: 20px; }
+        .section .article .div__productos .productos .img__txt h2 {
+          font-size: 1rem;
+          color: black; }
+        .section .article .div__productos .productos .img__txt p {
+          font-size: 20px;
+          color: black; }
         .section .article .div__productos .productos .celular1:hover {
           box-shadow: 0px 20px 35px 0px #cfcfcf;
           z-index: 1;
           transition: -webkit-box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out; }
-        .section .article .div__productos .productos .computadora3 {
-          margin: 10px;
-          background-color: #ffff;
-          padding: 10px;
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          border: 1px solid #ffff;
-          border-radius: 7px;
-          box-shadow: 0px 0px 5px 1px #cfcfcf; }
-          .section .article .div__productos .productos .computadora3 .img__computadora3 {
-            width: 224px; }
-            .section .article .div__productos .productos .computadora3 .img__computadora3 .img__txt {
-              display: flex;
-              font-size: 20px; }
+        .section .article .div__productos .productos .img__txt h2 {
+          font-size: 1rem;
+          color: black; }
+        .section .article .div__productos .productos .img__txt p {
+          font-size: 20px;
+          color: black; }
         .section .article .div__productos .productos .computadora3:hover {
           box-shadow: 0px 20px 35px 0px #cfcfcf;
           z-index: 1;
           transition: -webkit-box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out; }
-        .section .article .div__productos .productos .celular2 {
-          margin: 10px;
-          background-color: #ffff;
-          padding: 10px;
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          border: 1px solid #ffff;
-          border-radius: 7px;
-          box-shadow: 0px 0px 5px 1px #cfcfcf; }
-          .section .article .div__productos .productos .celular2 .img__celular2 {
-            width: 224px; }
-            .section .article .div__productos .productos .celular2 .img__celular2 .img__txt {
-              display: flex;
-              font-size: 20px; }
+        .section .article .div__productos .productos .img__txt h2 {
+          font-size: 1rem;
+          color: black; }
+        .section .article .div__productos .productos .img__txt p {
+          font-size: 20px;
+          color: black; }
         .section .article .div__productos .productos .celular2:hover {
           box-shadow: 0px 20px 35px 0px #cfcfcf;
           z-index: 1;
           transition: -webkit-box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out;
           transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out; }
-        .section .article .div__productos .productos .celular3 {
-          margin: 10px;
-          background-color: #ffff;
-          padding: 10px;
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          border: 1px solid #ffff;
-          border-radius: 7px;
-          box-shadow: 0px 0px 5px 1px #cfcfcf; }
-          .section .article .div__productos .productos .celular3 .img__celular3 {
-            width: 224px; }
-            .section .article .div__productos .productos .celular3 .img__celular3 .img__txt {
-              display: flex;
-              font-size: 20px; }
+        .section .article .div__productos .productos .img__txt h2 {
+          font-size: 1rem;
+          color: black; }
+        .section .article .div__productos .productos .img__txt p {
+          font-size: 20px;
+          color: black; }
         .section .article .div__productos .productos .celular3:hover {
           box-shadow: 0px 20px 35px 0px #cfcfcf;
           z-index: 1;
@@ -740,3 +684,21 @@
             border-radius: 3px;
             padding: 0px 3px;
             outline: none; }
+
+.card, .section .article .div__productos .productos .computadora1, .section .article .div__productos .productos .computadora2, .section .article .div__productos .productos .celular1, .section .article .div__productos .productos .computadora3, .section .article .div__productos .productos .celular2, .section .article .div__productos .productos .celular3 {
+  margin: 10px;
+  background-color: #ffff;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #ffff;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 1px #cfcfcf; }
+  .card .img__computadora1, .section .article .div__productos .productos .computadora1 .img__computadora1, .section .article .div__productos .productos .computadora2 .img__computadora1, .section .article .div__productos .productos .celular1 .img__computadora1, .section .article .div__productos .productos .computadora3 .img__computadora1, .section .article .div__productos .productos .celular2 .img__computadora1, .section .article .div__productos .productos .celular3 .img__computadora1 {
+    width: auto;
+    max-width: 224px; }
+    .card .img__computadora1 .img__txt, .section .article .div__productos .productos .computadora1 .img__computadora1 .img__txt, .section .article .div__productos .productos .computadora2 .img__computadora1 .img__txt, .section .article .div__productos .productos .celular1 .img__computadora1 .img__txt, .section .article .div__productos .productos .computadora3 .img__computadora1 .img__txt, .section .article .div__productos .productos .celular2 .img__computadora1 .img__txt, .section .article .div__productos .productos .celular3 .img__computadora1 .img__txt {
+      display: flex; }

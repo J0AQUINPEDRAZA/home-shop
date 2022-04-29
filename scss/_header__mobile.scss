@@ -1,4 +1,5 @@
 @import "_variables";
+@import "_base";
 
 @media only screen and (max-width:768px){
     .header__desktop{
@@ -21,10 +22,10 @@
                 color: $grisFont;
                 text-decoration: none;
                 font-size: 20px;
-                &:hover{
-                    background-color: $azulHeaderHover;
-                    color: $blanco;
-                }
+                    &:hover{
+                        background-color: $azulHeaderHover;
+                        color: $blanco;
+                    }
             }
             .boton__vender{
                 margin: 0px;
@@ -33,10 +34,10 @@
                 color: $grisFont;
                 text-decoration: none;
                 font-size: 20px;
-                &:hover{
+                    &:hover{
                     background-color: $azulHeaderHover;
                     color: $blanco;
-                }
+		            }
             }	
             .boton__categorias{
                 margin: 0px;
@@ -45,11 +46,10 @@
                 color: $grisFont;
                 text-decoration: none;
                 font-size: 20px;
-                list-style: none;
                 &:hover{
                     background-color: $azulHeaderHover;
                     color: $blanco;
-                }
+		        }
             }		
             .dropdown-menu{
                 border: none;
@@ -73,7 +73,7 @@
                 &:hover{
                     background-color: $azulHeaderHover;
                     color: $blanco;
-                }
+		        }
             }
             .color__btn{
                 color: $grisFont;
