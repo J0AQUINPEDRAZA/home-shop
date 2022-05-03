@@ -15,6 +15,9 @@
         background-color: $azulHeader;
         .navbar{
             align-content: flex-start;
+            .container-fluid{
+                padding-left: 5px;
+            }
             .boton__inicio{
                 margin: 0px;
                 padding: 7px 15px;

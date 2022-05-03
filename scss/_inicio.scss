@@ -2,6 +2,8 @@
 
 @import "_variables";
 
+@import "_footer";
+
 .section{
     width: 90%;
     max-width: 1200px;
@@ -13,6 +15,7 @@
         max-width: 1200px;
         justify-content: center;
         .title__categoria{
+            @include textos;
             display: flex;
             justify-content: center;
             padding: 10px;
@@ -33,6 +36,7 @@
                 justify-content: center;
                 .computadora1{
                     @extend .card;
+                    cursor: pointer;
                 }
                 .computadora1:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -46,6 +50,7 @@
                 }
                 .computadora2{
                     @extend .card;
+                    cursor: pointer;
                 }
                 .computadora2:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -59,6 +64,7 @@
                 }
                 .celular1{
                     @extend .card;
+                    cursor: pointer;
                 }
                 .celular1:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -72,6 +78,7 @@
                 }
                 .computadora3{
                     @extend .card;
+                    cursor: pointer;
                 }
                 .computadora3:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -85,6 +92,7 @@
                 }
                 .celular2{
                     @extend .card;
+                    cursor: pointer;
                 }
                 .celular2:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -98,6 +106,7 @@
                 }
                 .celular3{
                     @extend .card;
+                    cursor: pointer;
                 }
                 .celular3:hover{
                     box-shadow: 0px 20px 35px 0px $boxShadow;
@@ -105,10 +114,8 @@
                     transition: -webkit-box-shadow .2s ease-in-out;
                     transition: box-shadow .2s ease-in-out;
                     transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
-                }
-            }      
+                }      
+            }
         }
     }
 }
-
-@import "_footer";
