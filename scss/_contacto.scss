@@ -31,7 +31,7 @@
             border: 1px solid $azulHeader;
             border-radius: 10px;
             align-content: center;
-            box-shadow: 0px 20px 35px 0px $boxShadow;
+            box-shadow: 0px 20px 35px 0px $boxShadowForm;
             .formulario__inputs{
                 width: 300px;
                 height: 30px;
@@ -83,7 +83,7 @@
                 max-width: 350px;
                 padding: 10px;
                 margin: 0;
-                box-shadow: 0px 20px 35px 0px $boxShadow;
+                box-shadow: 0px 20px 35px 0px $boxShadowForm;
                 .formulario__inputs{
                 width: 100%;
                 }

@@ -465,7 +465,7 @@
       border: 1px solid #235b7d;
       border-radius: 10px;
       align-content: center;
-      box-shadow: 0px 20px 35px 0px #cfcfcf; }
+      box-shadow: 0px 20px 35px 0px #6c757d; }
       .section__contacto .article__contacto .formulario .formulario__inputs {
         width: 300px;
         height: 30px;
@@ -510,7 +510,7 @@
         max-width: 350px;
         padding: 10px;
         margin: 0;
-        box-shadow: 0px 20px 35px 0px #cfcfcf; }
+        box-shadow: 0px 20px 35px 0px #6c757d; }
         .section__contacto .article__contacto .formulario .formulario__inputs {
           width: 100%; }
         .section__contacto .article__contacto .formulario .formulario__option {
@@ -604,7 +604,7 @@
       border-radius: 10px;
       align-content: center;
       justify-content: space-evenly;
-      box-shadow: 0px 20px 35px 0px #cfcfcf; }
+      box-shadow: 0px 20px 35px 0px #6c757d; }
       .article__vender .title__publicar .formulario__vender .formulario__labels__vender {
         color: #235b7d;
         margin: 10px 0px 0px 0px; }
@@ -666,7 +666,7 @@
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
-      box-shadow: 0px 20px 35px 0px #cfcfcf; }
+      box-shadow: 0px 20px 35px 0px #6c757d; }
       .article__vender .title__publicar .formulario__vender .formulario__inputs__vender {
         width: 100%;
         height: 40px; }
@@ -785,7 +785,7 @@
           border: 1px solid #235b7d;
           border-radius: 10px;
           align-content: center;
-          box-shadow: 0px 20px 35px 0px #cfcfcf; }
+          box-shadow: 0px 20px 35px 0px #6c757d; }
           .section__perfil .main__perfil .article__perfil .div__form__login .formulario__perfil__login .formulario__perfil__labels {
             color: #d3d3d3;
             margin: 10px 0px 0pX 0px; }
@@ -825,7 +825,7 @@
           border: 1px solid #235b7d;
           border-radius: 10px;
           align-content: center;
-          box-shadow: 0px 20px 35px 0px #cfcfcf; }
+          box-shadow: 0px 20px 35px 0px #6c757d; }
           .section__perfil .main__perfil .article__perfil .div__form__registrarse .formulario__perfil__registrarse .formulario__perfil__labels {
             color: #d3d3d3;
             margin: 10px 0px 0pX 0px; }
