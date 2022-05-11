@@ -565,15 +565,12 @@
         display: block; }
     .section__contacto .aside .dropdown-menu {
       border: 1px #d3d3d3;
-      background-color: #235b7d; }
+      background-color: #2a6d95; }
       .section__contacto .aside .dropdown-menu .sub__menu {
         color: #d3d3d3;
+        text-shadow: 1px #ffff;
         margin-left: 30px;
         margin-right: 30px; }
-        .section__contacto .aside .dropdown-menu .sub__menu:hover {
-          background-color: #2a6d95;
-          border-radius: 4px;
-          color: #ffff; }
 
 .title__vender {
   margin: 30px 0px;
