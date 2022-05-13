@@ -3,6 +3,8 @@
 @import "_base";
 
 .section__contacto{
+    margin-top: 50px;
+    margin-bottom: 50px;
     grid-area: section;
 	width: 100%;
 	max-width: 1200px;
@@ -130,7 +132,8 @@
 }
 @media only screen and (max-width:750px){
     .section__contacto{
-        margin: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         .formulario{
             width: 73vw;
             max-width: 350px;

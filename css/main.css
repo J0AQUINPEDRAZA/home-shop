@@ -239,7 +239,7 @@
   font-family: 'Fredoka', sans-serif;
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-rows: auto auto 3.75rem;
+  grid-auto-rows: 0.2fr auto 3.75rem;
   justify-items: center;
   grid-template-areas: "header" "section"  "footer"; }
 
@@ -252,6 +252,8 @@
   height: 50px;
   justify-content: center;
   align-items: center; }
+  .footer .footerText {
+    color: #d3d3d3; }
 
 .section {
   grid-area: section;
@@ -435,6 +437,8 @@
       margin-left: 10px; }
 
 .section__contacto {
+  margin-top: 50px;
+  margin-bottom: 50px;
   grid-area: section;
   width: 100%;
   max-width: 1200px;
@@ -571,7 +575,8 @@
 
 @media only screen and (max-width: 750px) {
   .section__contacto {
-    margin: 50px; }
+    margin-top: 50px;
+    margin-bottom: 50px; }
     .section__contacto .formulario {
       width: 73vw;
       max-width: 350px;
