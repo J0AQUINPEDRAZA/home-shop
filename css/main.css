@@ -517,6 +517,22 @@
         border-radius: 3px;
         padding: 0px 3px;
         outline: none; }
+    @media only screen and (max-width: 750px) {
+      .section__contacto .article__contacto .formulario {
+        width: 85vw;
+        max-width: 350px;
+        padding: 10px;
+        margin: 0;
+        box-shadow: 0px 20px 35px 0px #6c757d; }
+        .section__contacto .article__contacto .formulario .formulario__inputs {
+          width: 100%; }
+        .section__contacto .article__contacto .formulario .formulario__option {
+          width: 100%; }
+        .section__contacto .article__contacto .formulario .formulario__input__comentario {
+          width: 100%;
+          min-width: 190px; }
+        .section__contacto .article__contacto .formulario .formulario__input__enviar {
+          width: 100%; } }
 
 .aside {
   width: auto;
@@ -572,26 +588,6 @@
       text-shadow: 1px #ffff;
       margin-left: 30px;
       margin-right: 30px; }
-
-@media only screen and (max-width: 750px) {
-  .section__contacto {
-    margin-top: 50px;
-    margin-bottom: 50px; }
-    .section__contacto .formulario {
-      width: 73vw;
-      max-width: 350px;
-      padding: 10px;
-      margin: 0;
-      box-shadow: 0px 20px 35px 0px #6c757d; }
-      .section__contacto .formulario .formulario__inputs {
-        width: 100%; }
-      .section__contacto .formulario .formulario__option {
-        width: 100%; }
-      .section__contacto .formulario .formulario__input__comentario {
-        width: 100%;
-        min-width: 190px; }
-      .section__contacto .formulario .formulario__input__enviar {
-        width: 100%; } }
 
 section {
   grid-area: section; }
