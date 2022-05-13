@@ -1,6 +1,7 @@
 @import "_variables";
 
 .footer{
+	grid-area: footer;
 	margin: 10px 0px 0px 0px;
 	background-color: $azulHeader ;
 	display: flex;

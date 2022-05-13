@@ -5,6 +5,7 @@
 	    display: none; 
     }
 	.header__desktop{
+		grid-area: header;
 		background-color: $azulHeader;
 		width: 100%;
 		.nav{

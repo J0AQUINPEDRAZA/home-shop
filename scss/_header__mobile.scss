@@ -6,8 +6,9 @@
         display: none;
     }
     .header__responsive{
-    width: 100%;
-    background-color: $azulHeader;
+        grid-area: header;
+        width: 100%;
+        background-color: $azulHeader;
     }
     .prueba{
         display: flex;

@@ -1,5 +1,9 @@
 @import "_variables";
 
+
+section{
+    grid-area: section;
+}
 .title__vender{
     margin: 30px 0px;
     display: flex;
