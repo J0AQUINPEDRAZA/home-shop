@@ -501,7 +501,7 @@
         outline: none; }
       .section__contacto .article__contacto .formulario .formulario__input__comentario {
         min-width: 300px;
-        max-width: 300px;
+        max-width: 100%;
         max-height: 100px;
         min-height: 150px;
         outline: none;
